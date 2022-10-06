@@ -5,7 +5,7 @@ import Testimonialsection from './Components/Testimonialsection';
 function App() {
   return (
     <div>
-     <Testimonialsection />
+     {/* <Testimonialsection /> */}
     </div>
   );
 }
