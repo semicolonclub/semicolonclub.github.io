@@ -6,7 +6,9 @@ import youtube from '../Images/youtube.png';
 import email from '../Images/email.png';
 import linkedin from '../Images/linkedin.png';
 
-function Footer() {
+//  Footer Updated 
+
+function Footer() { 
   return (
     <div>
       <section class="footer">
