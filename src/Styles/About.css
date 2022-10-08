@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: row;
+    overflow: auto;
+    margin-top: auto;
+}
+.who{
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 30vh;
+    width: 60vw;
+    border: 2px solid black;
+    position: relative;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: row;
+    overflow: auto;
+}
+.what{
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 30vh;
+    width: 60vw;
+    border: 2px solid black;
+    position: relative;
+}
