@@ -1,0 +1,26 @@
+.testimonials__container{
+    padding: 2rem 0 1rem 0;
+}
+.testimonials__section{
+    display: flex;
+    overflow: auto;
+}
+  ::-webkit-scrollbar {
+    display: none;
+}
+
+.testimonials__heading{
+   text-align: center;
+   color: var(--semicolon_black);
+   font-size: 1.3rem;
+   font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+    text-shadow: 2px 2px #ccc;
+    letter-spacing: 0.1rem;
+}
+
+@media screen and (max-width: 768px){
+    .testimonials__section{
+        flex-direction: column;
+    }
+}
