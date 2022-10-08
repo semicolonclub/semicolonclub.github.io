@@ -1,5 +1,11 @@
 import React from 'react';
 import '../Styles/Hero.css';
+import ScriptTag from 'react-script-tag';
+const Demo = props => (
+  <ScriptTag type="text/javascript" src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" />
+  <ScriptTag type="text/javascript" src="../Components/HeroScript.js" />
+)
+
 
 function Hero() {
   return (
