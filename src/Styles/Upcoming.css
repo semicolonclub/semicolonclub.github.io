@@ -1,0 +1,23 @@
+.carousel-inner {
+    margin: 0 auto;
+    padding: 6rem 1rem;
+    flex-wrap: wrap;
+    align-items: auto;
+    justify-content: none;
+    gap: 10rem;
+  }
+  p{
+    font-family: 'Signika Negative', sans-serif;
+  }
+  h5{
+    font-family: 'Roboto', sans-serif;
+  }
+  h3{
+    text-align: center;
+    color: var(--semicolon_black);
+    font-size: 1.3rem;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+    text-shadow: 2px 2px #ccc;
+    letter-spacing: 0.1rem;
+  }
