@@ -1,25 +1,36 @@
-import React from 'react';
-import '../Styles/About.css'
+import React,{ useEffect } from 'react';
+import pic1 from "../assets/pic2.jpg";
+import '../Styles/About.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function About() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
-    <div>
-      <div class="container">
-        <div class="who">
-            <h1>Who We Are?</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure voluptatum nemo quia odio error ad ullam
-                mollitia. Dolor, optio qui.</p>
-        </div>
-       
-    </div>
-    <div class="container1">
-        <div class="what">
-            <h1>What We Do?</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sed quidem numquam possimus sit atque,
-                perspiciatis veritatis tempore, laborum aperiam voluptates culpa doloribus, esse nemo sequi sapiente
-                quod omnis id. At, impedit! Odio voluptates quod ab ullam nemo. Voluptas, quam.</p>
-        </div>
-    </div>
+    <div className='parent'>
+       <div className='container'>   
+           <div className='flex' data-aos="flip-up" data-aos-easing="linear" data-aos-duration="1500">
+              <img className='who_img' src={pic1} alt="" />
+              <div>
+              <div className='heading'>
+            <h1>Who we are?</h1>
+           </div>
+              <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestiae iste itaque eaque laboriosam animi perferendis ipsam incidunt cupiditate nostrum suscipit hic, cum consectetur iusto alias unde repellat voluptates enim!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestiae iste itaque eaque laboriosam animi perferendis ipsam incidunt cupiditate nostrum suscipit hic, cum consectetur iusto alias unde repellat voluptates enim!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestiae iste itaque eaque laboriosam animi perferendis ipsam incidunt cupiditate nostrum suscipit hic, cum consectetur iusto alias unde repellat voluptates enim!</p>
+              </div>
+           </div>
+           <div className='flex1' data-aos="flip-down" data-aos-easing="linear" data-aos-duration="1500">
+              <div>
+              <div className='heading'>
+            <h1>What we do?</h1>
+           </div>
+              <p className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestiae iste itaque eaque laboriosam animi perferendis ipsam incidunt cupiditate nostrum suscipit hic, cum consectetur iusto alias unde repellat voluptates enim!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestiae iste itaque eaque laboriosam animi perferendis ipsam incidunt cupiditate nostrum suscipit hic, cum consectetur iusto alias unde repellat voluptates enim!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestiae iste itaque eaque laboriosam animi perferendis ipsam incidunt cupiditate nostrum suscipit hic, cum consectetur iusto alias unde repellat voluptates enim!</p>
+              </div>
+              <img className='what_img' src={pic1} alt="" />
+           </div>
+       </div>
     </div>
   )
 }

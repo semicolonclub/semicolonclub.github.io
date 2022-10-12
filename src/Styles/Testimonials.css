@@ -82,7 +82,7 @@
   }
   
   .track-list > * {
-    transition: all 0.2s;
+    transition: all 0.05s;
   }
   
   .track-list.two {
@@ -90,12 +90,12 @@
     height: 0;
     padding:0 5%;
     overflow: auto;
-    transition: height 0.2s ease;
+    transition: height 0.05s ease;
     font-size: 0.75rem;
   }
   .track-list.two.expand {
     height:80px;
-    transition: height 0.2s ease;
+    transition: height 0.05s ease;
     padding: 5%;
     font-size: 0.75rem;
     color: var(--semicolon_black);

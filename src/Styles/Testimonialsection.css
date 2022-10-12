@@ -1,9 +1,10 @@
 .testimonials__container{
-    padding: 2rem 0 1rem 0;
+    padding: 5rem 0 1rem 0;
 }
 .testimonials__section{
     display: flex;
     overflow: auto;
+    margin: auto;
 }
   ::-webkit-scrollbar {
     display: none;
