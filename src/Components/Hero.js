@@ -1,28 +1,46 @@
-import React from 'react';
+import React,{ useEffect,useCallback,useState,useRef } from 'react';
 import '../Styles/Hero.css';
-import ScriptTag from 'react-script-tag';
-const Demo = props => (
-  <ScriptTag type="text/javascript" src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" />
-  <ScriptTag type="text/javascript" src="../Components/HeroScript.js" />
-)
+import Typed from 'typed.js';
+import logo from "../assets/hero.jpg";
 
 
 function Hero() {
+    const el = useRef(null);
+
+    useEffect(() => {
+      const typed = new Typed(el.current, {
+        strings:["Welcome to Semicolon.","This is the official coding club of NIT Srinagar.","If you love coding,","You are at the right place."],
+        startDelay: 300,
+        typeSpeed: 100,
+        backSpeed: 11,
+        smartBackspace: true,
+        loop: true,
+        showCursor: true,
+      });
+  
+      // Destropying
+      return () => {
+        typed.destroy();
+      };
+    }, []);
+  
+
   return (
     <div>
-        <div class="top">
-        <div class="logo">
-            <img src="semicolon_logo.jpg" alt="logo" id="logo"/>
+       <div className="top">
+        <div className="logo">
+            <img src={logo} alt="logo" id="logo" />
         </div>
-        <div class="wrap">
-            <div class="landing">
-                <span class="changing_text"></span>
+        <div className="wrap">
+            <div className="landing">
+                <span ref={el} className="changing_text"></span>
             </div>
         </div>
-        <div class="upcoming">
-            <a href="/" class="btn">Upcoming Events</a>
+        <div className="upcoming">
+            <a href="/" className="btn">Upcoming Events</a>
         </div>
     </div>
+
     </div>
   )
 }
