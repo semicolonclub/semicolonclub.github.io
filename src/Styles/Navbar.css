@@ -1,26 +1,19 @@
 .navbar{
-border-bottom: 2px solid gray;
+border-bottom: 1px solid gray;
 position: fixed;
 width: 100%;
 background-color: transparent  !important;
 -webkit-backdrop-filter: blur(3px);
 backdrop-filter: blur(3px);
-
-
+z-index: 200;
 }
 
 .navbar .navbar-nav{
     margin: 0 auto;
-}
-
-
-a{
-    text-shadow: 0px 0px 15px black;
+    font-family: 'Signika Negative', sans-serif;
 }
     .nav-link:hover{
-        border-radius: 30px;
-        background-color: #aaa;
-
+        text-shadow: 0px 0px 15px black;
     }
 
 .navbar ul{
@@ -34,17 +27,15 @@ a{
 }
 .nav-link{
     color: black;
-    font-size: 20px;
+    font-size:16px;
     text-decoration: none;
     display: block;
-    font-family: 'Bungee Spice', cursive;
-font-family: 'Roboto', sans-serif;
-
-}
+    font-family: 'Roboto', sans-serif;
+} 
 .img_logo{
     display: flex;
-    width: 70px;
-    height: 70px;
+    width: 58px;
+    height:58px;
     flex-wrap: wrap;
     flex-shrink: 1;
     padding: 3px;

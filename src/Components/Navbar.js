@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Styles/Navbar.css';
-import semicolon_logo from '../Images/semicolon_logo.png';
-import NIT from '../Images/NIT.jpg'
+import semicolon_logo from '../assets/semicolon_logo.png';
+import NIT from '../assets/NIT.jpg'
 
 function Navbar() {
   return(
@@ -14,22 +14,22 @@ function Navbar() {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">{"<"}Home{">"}</a>
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">{"<"}Events{">"}</a>
+          <a class="nav-link" href="#">Events</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">{"<"}Resources{">"}</a>
+          <a class="nav-link" href="#">Resources</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">{"<"}Team{">"}</a>
+          <a class="nav-link" href="#">Team</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">{"<"}Gallery{">"}</a>
+          <a class="nav-link" href="#">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">{"<"}About us{">"}</a>
+          <a class="nav-link" href="#">About us</a>
         </li>
         </ul>
         
