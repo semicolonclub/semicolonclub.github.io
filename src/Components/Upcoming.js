@@ -8,16 +8,15 @@ function Upcoming() {
     <div>
       <div
         id="carouselExampleDark"
-        class="carousel carousel-dark slide carousel-fade"
+        className="carousel carousel-dark slide carousel-fade"
         data-bs-ride="carousel"
-        ṅṅ
       >
-        <div class="carousel-indicators">
+        <div className="carousel-indicators">
           <button
             type="button"
             data-bs-target="#carouselExampleDark"
             data-bs-slide-to="0"
-            class="active"
+            className="active"
             aria-current="true"
             aria-label="Slide 1"
           ></button>
@@ -34,32 +33,32 @@ function Upcoming() {
             aria-label="Slide 3"
           ></button>
         </div>
-        <div class="carousel-inner">
+        <div className="carousel-inner">
           <div className="upcoming_heading">
             <h1 >Upcoming Events</h1>
           </div>
-          <div class="carousel-item active" data-bs-interval="4000">
+          <div className="carousel-item active" data-bs-interval="4000">
             <img
               src={pic2}
-              class="d-block w-100"
+              className="d-block w-100"
               alt="..."
               width="10"
               height="300"
             />
-            <div class="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-none d-md-block">
               <h5>ANIMIEA</h5>
               <p>A challenge for all the otakus!</p>
             </div>
           </div>
-          <div class="carousel-item" data-bs-interval="4000">
+          <div className="carousel-item" data-bs-interval="4000">
             <img
               src={pic2}
-              class="d-block w-100"
+              className="d-block w-100"
               alt="..."
               width="10"
               height="300"
             />
-            <div class="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-none d-md-block">
               <h5>THE VIEW OF ZENITH</h5>
               <p>
                 A platform for the students to think about the various aspects
@@ -67,15 +66,15 @@ function Upcoming() {
               </p>
             </div>
           </div>
-          <div class="carousel-item" data-bs-interval="4000">
+          <div className="carousel-item" data-bs-interval="4000">
             <img
               src={pic2}
-              class="d-block w-100"
+              className="d-block w-100"
               alt="..."
               width="10"
               height="300"
             />
-            <div class="carousel-caption d-none d-md-block">
+            <div className="carousel-caption d-none d-md-block">
               <h5>TECHSAPIANS</h5>
               <p>
                 A monthly hackathon in which students will compete each other
@@ -85,22 +84,22 @@ function Upcoming() {
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleDark"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleDark"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
     </div>

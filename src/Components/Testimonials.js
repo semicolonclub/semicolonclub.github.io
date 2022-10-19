@@ -12,7 +12,7 @@ function Testimonials({ item }) {
             <img
               className="event__card--image"
               src={item.image}
-              alt="this is a image"
+              alt="testimonial pic"
             />
            <div>
              <h2 className="event__card--name">{item.name}</h2>
