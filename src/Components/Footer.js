@@ -11,9 +11,9 @@ import linkedin from '../assets/linkedin.png';
 function Footer() { 
   return (
     <div>
-      <section class="footer">
-      <div class="line"></div>
-      <div class="social-handles">
+      <section className="footer">
+      <div className="line"></div>
+      <div className="social-handles">
       <a href="https://www.instagram.com/semicolon_nitsgr/"><img className='img' src={instagram} /></a> 
         <a href="https://www.linkedin.com/company/semicolon-nitsgr/"><img className='img' src={linkedin} /></a>
         <a href="https://www.facebook.com/semicolonNIT"><img className='img' src={facebook} /></a>
@@ -21,7 +21,7 @@ function Footer() {
       </div>
 
       
-      <p class="copyright">Copyright © 2022 Semicolon Coding Club, NIT Srinagar</p>
+      <p className="copyright">Copyright © 2022 Semicolon Coding Club, NIT Srinagar</p>
 
     </section>
     </div>
