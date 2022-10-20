@@ -9,7 +9,7 @@ function EventCard({ item,category }) {
           <img class='event__card__image' 
            src={item.image} alt="this is a image" />
           <div className='event__card__detail--container'>
-          <div class="event__card__detail"> 
+          <div class="event__card__detail__page"> 
             <p>{item.name}</p>  
             <p class="event__card__detail--time">{item.date}</p>
           </div>
