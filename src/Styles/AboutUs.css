@@ -36,7 +36,7 @@ body {
   padding: 80px, 30px;
   box-shadow: 0 0 9px rgba(0, 0, 0 0.6); */
   border-radius: 5px;
-    box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+  box-shadow: 0px 10px 90px -20px darkgrey;
     padding: 30px;
     margin: 20px;
 }

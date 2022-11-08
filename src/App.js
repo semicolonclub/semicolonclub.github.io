@@ -7,7 +7,7 @@ import TeamPage from "./Components/TeamPage";
 import AboutUsPage from "./Components/AboutUsPage";
 
 function App() {
-  let component;
+  let component = <HomePage/>;
   switch (window.location.pathname) {
     case "/HomePage":
       component = <HomePage />;
@@ -27,8 +27,8 @@ function App() {
   }
   return (
     <div>
-      {/* <HomePage />
-       <EventPage /> 
+    
+       {/* <EventPage /> 
        <TeamPage/> */}
       {component}
     </div>
