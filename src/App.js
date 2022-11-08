@@ -2,14 +2,37 @@ import React from 'react';
 import './App.css';
 import EventPage from './Components/EventPage';
 import HomePage from './Components/HomePage';
+import ResourcesPage from './Components/ResourcesPage';
 import TeamPage from './Components/TeamPage';
 
 function App() {
+  let component
+  switch(window.location.pathname){
+    case "/HomePage":
+      component = <HomePage/>
+      break
+    case "/EventPage":
+     component = <EventPage/>
+     break
+    case "/TeamPage":
+     component = <TeamPage/>
+     break
+     case "/ResourcesPage":
+     component = <ResourcesPage/>
+     break
+     
+      
+  }
+     
+   
+  
+
   return (
     <div>
-       <HomePage />
-       {/* <EventPage /> 
+       {/* <HomePage /> 
+       <EventPage /> 
        <TeamPage/> */}
+       {component}
     </div>
   );
 }
