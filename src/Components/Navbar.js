@@ -29,7 +29,7 @@ function Navbar() {
           <a className="nav-link" href="#">Gallery</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">About us</a>
+          <a className="nav-link" href="/AboutUsPage">About us</a>
         </li>
         </ul>
         
