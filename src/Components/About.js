@@ -31,7 +31,13 @@ function About() {
               <img className='what_img' src={pic1} alt="" />
            </div>
        </div>
+
+
+
+
+
     </div>
+
   )
 }
 

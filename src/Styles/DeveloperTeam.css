@@ -1,0 +1,112 @@
+/* .container{
+    margin-left: 270px;
+
+
+} */
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.DevTeam
+{
+   
+    font-weight: lighter;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 2px 2px #ccc;
+    letter-spacing: 0.1rem;
+    color: var(--semicolon_black);
+    }
+
+.box2{
+margin-left: -100px;
+
+
+}  
+.row{
+display: flexbox;
+width: 100%;
+justify-content: center;
+margin-left: -15px;
+margin-right: -15px;
+}
+
+.our-team{
+position: relative;
+text-align: center;
+overflow: hidden;
+/* box-shadow: 0 0 5px #808080; */
+margin-bottom:-100px;
+row-gap: 0px;
+margin-top:25px;
+cursor:pointer;
+}
+.our-team img{
+width: 100%;
+height: auto;
+transition: all 0.50s linear 0s;
+
+}
+.our-team:hover img{
+transform: scale(1.2);
+
+}
+.our-team .team-content{
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+
+padding: 40px 0px;
+background: rgba(152, 197, 112, 0.95);
+opacity: 0;
+transition: all 0.5s ease-in-out;
+}
+.our-team:hover .team-content{
+opacity: 1;
+}
+.our-team .team-prof{
+margin: 20px 0;
+position: relative;
+top: 13%;
+font-size: 25px;
+font-weight: bold;
+color: rgba(0, 0, 0, 0.3);
+letter-spacing: 1px;
+text-transform: capitalize;
+}
+.our-team .team-prof small{
+display: block;
+font-size: 13px;
+color: #fff;
+margin-top: 10px;
+text-transform: uppercase;
+}
+.our-team .social-link{
+padding: 0;
+margin: 0;
+list-style: none;
+position: relative;
+top: 13%;
+}
+.our-team .social-link li{
+margin-right: 5px;
+display: inline-block;
+}
+.our-team .social-link li a{
+width: 35px;
+height: 35px;
+line-height: 35px;
+border-radius: 5px;
+color: #fff;
+background: rgba(0, 0, 0, 0.3);
+}
+.our-team .social-link li a:hover{
+background: #fff;
+color: #333;
+text-decoration: none;
+}
+@media only screen and (max-width: 990px){
+.our-team{ margin-bottom: 20px; 
+}
+
+}
