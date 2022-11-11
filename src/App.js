@@ -5,6 +5,7 @@ import HomePage from "./Components/HomePage";
 import ResourcesPage from "./Components/ResourcesPage";
 import TeamPage from "./Components/TeamPage";
 import AboutUsPage from "./Components/AboutUsPage";
+import Upcoming from "./Components/Upcoming";
 
 function App() {
   let component = <HomePage/>;
@@ -24,6 +25,10 @@ function App() {
     case "/AboutUsPage":
       component = <AboutUsPage />;
       break;
+    case "/Upcoming":
+      component = <Upcoming />;
+      break;
+
   }
   return (
     <div>

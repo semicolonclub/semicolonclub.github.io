@@ -1,11 +1,15 @@
 import React from "react";
 import "../Styles/Upcoming.css";
 import pic2 from "../assets/pic2.jpg";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 
 function Upcoming() {
   return (
+    
     <div>
+      <Navbar/>
       <div
         id="carouselExampleDark"
         className="carousel carousel-dark slide carousel-fade"
@@ -102,6 +106,7 @@ function Upcoming() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      
     </div>
   );
 }

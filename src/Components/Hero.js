@@ -4,6 +4,7 @@ import Typed from 'typed.js';
 import logo from "../assets/hero.jpg";
 
 
+
 function Hero() {
     const el = useRef(null);
 
@@ -37,7 +38,7 @@ function Hero() {
             </div>
         </div>
         <div className="upcoming">
-            <a href="/" className="btn">Upcoming Events</a>
+            <a href="/Upcoming" className="btn">Upcoming Events</a>
         </div>
     </div>
 

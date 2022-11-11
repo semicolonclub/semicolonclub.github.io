@@ -12,7 +12,7 @@ function EventCards() {
         image:pic1,
         intro:'Lorem ipsum dolor sit ipsum dolor sit',
         description:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda rem fugiat eligendi hic dolor perspiciatis necessitatibus corporis laborum, officiis doloremque facere corrupti suscipit quia, cumque debitis blanditiis labore libero tempore?',
-        date:'12-11-2022'
+        date:'30-11-2022'
       },
       {
         name:'Angela Yu',
