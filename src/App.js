@@ -28,9 +28,7 @@ function App() {
     case "/Upcoming":
       component = <Upcoming />;
       break;
-    case "/AboutUsPage":
-      component = <AboutUsPage />;
-      break;
+    
   }
   return (
     <div>
