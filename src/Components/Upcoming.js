@@ -2,7 +2,7 @@ import React from "react";
 import "../Styles/Upcoming.css";
 import pic2 from "../assets/pic2.jpg";
 import Navbar from "./Navbar";
-import Footer from "./Footer";
+
 
 
 function Upcoming() {
