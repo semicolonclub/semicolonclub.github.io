@@ -6,9 +6,7 @@ import TeamCards from './TeamCards';
 function EventPage() {
   return (
     <div>
-      <Navbar />
       <TeamCards />
-      <Footer />
     </div>
   )
 }

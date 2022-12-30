@@ -57,3 +57,6 @@ ul {
     display: flex;
     flex-shrink: 1;
  }
+ .navlink{
+    text-decoration: none;
+ }

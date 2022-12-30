@@ -6,9 +6,7 @@ import Resources from './Resources';
 function ResourcesPage() {
   return (
     <div>
-      <Navbar />
       <Resources/>
-      <Footer />
     </div>
   )
 }

@@ -10,15 +10,13 @@ import Upcoming from './Upcoming'
 function HomePage() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <About />
       <Upcoming/>
       <Testimonialsection/>
       <DeveloperTeam/>
-      <Footer />
-
-  
+      {/* <Footer /> */}
     </div>
   )
 }
