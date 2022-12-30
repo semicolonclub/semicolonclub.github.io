@@ -6,8 +6,6 @@ import "../Styles/AboutUs.css";
 function AboutUsPage() {
   return (
     <div>
-      <Navbar />
-
       <section id="ABOUT">
       <div class="about-1">
          <h1> ABOUT US </h1>
@@ -46,8 +44,6 @@ function AboutUsPage() {
          </div>
       </div>   
       </section>
-
-      <Footer />
     </div>
   )
 }
