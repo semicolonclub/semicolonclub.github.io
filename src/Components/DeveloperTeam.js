@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/DeveloperTeam.css";
 // import dp from "../DeveloperTeam_images/new200px.png";
-import dp from "../DeveloperTeam_images/new200px.png";
+import dp from "../DeveloperTeam_images/new.png";
 
 function DeveloperTeam() {
   return (
