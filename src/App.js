@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import EventPage from "./Components/EventPage";
 import HomePage from "./Components/HomePage";
 import ResourcesPage from "./Components/ResourcesPage";
+import GalleryPage from "./Components/GalleryPage";
 import TeamPage from "./Components/TeamPage";
 import AboutUsPage from "./Components/AboutUsPage";
 import Upcoming from "./Components/Upcoming";
@@ -35,13 +36,14 @@ function App() {
   // }
   return (
     <div>
-       <Navbar />
-       <Routes>
+      <Navbar />
+      <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/HomePage" element={<HomePage />} />
         <Route path="/about" element={<AboutUsPage />} />
         <Route path="/events" element={<EventPage />} />
         <Route path="/resources" element={<ResourcesPage />} />
+        <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/team" element={<TeamPage />} />
       </Routes>
       <Footer />
