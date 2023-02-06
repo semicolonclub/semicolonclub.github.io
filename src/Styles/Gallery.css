@@ -1,60 +1,62 @@
 @import url("https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
-*{
-    box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
 }
 
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
-.header{
-    text-align: center;
-    padding: 32px;
+.header {
+  text-align: center;
+  /* padding: 145px; */
+  /* margin-top: 50px; */
 }
 /* .header h1{
     font-family: 'Sacramento';
     font-size: 50px;
 } */
 
-.gallery_row{
-    display: flex;
-    flex-wrap: wrap;
-    /* padding: 0px 100px 100px 100px; */
-    margin-left:0px ;
-    margin-right: 0px;
+.gallery_row {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 0px 100px 100px 100px; */
+  margin-left: 70px;
+  margin-right: 70px;
 }
-.column{
-    flex: 25%;
-    max-width: 25%;
+.column {
+  flex: 50%;
+  max-width: 25%;
 }
-.img-hover-zoom{
-    height: auto;
-    overflow: hidden;
-    border: 5px solid #ffff;
+.img-hover-zoom {
+  height: auto;
+  overflow: hidden;
+  border: 5px solid #ffff;
+  padding: 1px;
 }
-.img-hover-zoom img{
-    vertical-align: middle;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    transition:  transform .5s ease;
+.img-hover-zoom img {
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  transition: transform 0.5s ease;
 }
-.img-hover-zoom:hover img{
-    transform: scale(1.5);
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
 }
 
 @media screen and (max-width: 800px) {
-    .column{
-        flex: 50%;
-        max-width: 50%;
-    }
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .column{
-        flex: 100%;
-        max-width: 100%;
-    }
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
