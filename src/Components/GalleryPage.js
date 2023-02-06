@@ -1,4 +1,5 @@
 import React from 'react';
+import "../Styles/Gallery.css";
 import pic2 from "../assets/pic2.jpg";
 
 function GalleryPage() {
@@ -8,53 +9,52 @@ function GalleryPage() {
         <h1>Gallery</h1>
         <p>Images that tell story</p>
       </div>
-
       <div className="gallery_row">
         <div className="column">
           <div className="img-hover-zoom">
-            <img src={pic2} style={{width:"100%"}} alt="" />
+            <img src={pic2} style={{ width: "100%" }} alt="" />
           </div>
           <div className="img-hover-zoom">
-            <img src={pic2} style={{width:"100%"}} alt="" />
+            <img src={pic2} style={{ width: "100%" }} alt="" />
           </div>
           <div className="img-hover-zoom">
-            <img src={pic2} style={{width:"100%"}} alt="" />
+            <img src={pic2} style={{ width: "100%" }} alt="" />
           </div>
         </div>
 
         <div className="column">
           <div className="img-hover-zoom">
-            <img src={pic2} style={{width:"100%"}} alt="" />
+            <img src={pic2} style={{ width: "100%" }} alt="" />
           </div>
           <div className="img-hover-zoom">
-            <img src={pic2} style={{width:"100%"}} alt="" />
+            <img src={pic2} style={{ width: "100%" }} alt="" />
           </div>
-          <div clasName="img-hover-zoom">
-            <img src={pic2} style={{width:"100%"}} alt="" />
+          <div className="img-hover-zoom">
+            <img src={pic2} style={{ width: "100%" }} alt="" />
           </div>
         </div>
 
         <div className="column">
           <div className="img-hover-zoom">
-            <img src={pic2} style={{width:"100%"}} alt="" />
+            <img src={pic2} style={{ width: "100%" }} alt="" />
           </div>
           <div className="img-hover-zoom">
-            <img src={pic2} style={{width:"100%"}} alt="" />
+            <img src={pic2} style={{ width: "100%" }} alt="" />
           </div>
           <div className="img-hover-zoom">
-            <img src={pic2} style={{width:"100%"}} alt="" />
+            <img src={pic2} style={{ width: "100%" }} alt="" />
           </div>
         </div>
 
         <div className="column">
           <div className="img-hover-zoom">
-            <img src={pic2} style={{width:"100%"}} alt="" />
+            <img src={pic2} style={{ width: "100%" }} alt="" />
           </div>
           <div className="img-hover-zoom">
-            <img src={pic2} style={{width:"100%"}} alt="" />
+            <img src={pic2} style={{ width: "100%" }} alt="" />
           </div>
           <div className="img-hover-zoom">
-            <img src={pic2} style={{width:"100%"}} alt="" />
+            <img src={pic2} style={{ width: "100%" }} alt="" />
           </div>
         </div>
       </div>

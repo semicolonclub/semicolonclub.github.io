@@ -1,18 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
 * {
- 
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   font-family: 'Bellota Text', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bellota Text", cursive;
 }
 body {
   background-color: white;
 }
 .about-1 {
-  margin: 0px;
-  padding: 5px;
+  text-align: center;
+  padding: 50px;
 }
 .about-1 h1 {
   padding: 6rem 0 2rem 0;
@@ -37,8 +36,8 @@ body {
   box-shadow: 0 0 9px rgba(0, 0, 0 0.6); */
   border-radius: 5px;
   box-shadow: 0px 10px 90px -20px darkgrey;
-    padding: 30px;
-    margin: 20px;
+  padding: 30px;
+  margin: 20px;
 }
 .about-item i {
   font-size: 43px;

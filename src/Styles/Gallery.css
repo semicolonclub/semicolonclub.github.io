@@ -13,10 +13,10 @@ body{
     text-align: center;
     padding: 32px;
 }
-.header h1{
+/* .header h1{
     font-family: 'Sacramento';
     font-size: 50px;
-}
+} */
 
 .gallery_row{
     display: flex;
