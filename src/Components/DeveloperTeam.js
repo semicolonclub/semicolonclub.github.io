@@ -1,224 +1,139 @@
 import React from "react";
-import "../Styles/DeveloperTeam.css";
-// import dp from "../DeveloperTeam_images/new200px.png";
-import dp from "../DeveloperTeam_images/new.png";
+import "../Styles/TeamSec.css";
+import { NavLink } from "react-router-dom";
 
-function DeveloperTeam() {
+function TeamSec() {
   return (
-    <div class="container">
-    <h1 class="DevTeam">Developer Team</h1>
-
-    <div class="row">
-      <div class="col-md-3 col-sm-6 box2">
-        <div class="our-team">
-          <img src={dp} alt="" />
-          <div class="team-content">
-            <h3 class="team-prof">
-              Team Member Name
-              <small>Team member designation</small>
-            </h3>
-            <ul class="social-link">
-              <li>
-                <a href="#" class="fab fa-linkedin"></a>
-              </li>
-              <li>
-                <a href="#" class="fab fa-envelope"></a>
-              </li>
-              <li>
-                <a href="#" class="fab fa-instagram"></a>
-              </li>
-            </ul>
+    <div className="team_sec">
+      <p className="teamsec_heading"> <span className="red">Our</span>  Team</p>
+      <div className="responsive-container-block">
+        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+          <div class="team-card">
+            <div class="img-wrapper">
+              <img
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png"
+                class="team-img"
+              />
+            </div>
+            <p class="text-blk name">Maxwell Doe</p>
+            <p class="text-blk position">Instructor</p>
+          </div>
+        </div>
+        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+          <div class="team-card">
+            <div class="img-wrapper">
+              <img
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png"
+                class="team-img"
+              />
+            </div>
+            <p class="text-blk name">Maxwell Doe</p>
+            <p class="text-blk position">Instructor</p>
+          </div>
+        </div>
+        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+          <div class="team-card">
+            <div class="img-wrapper">
+              <img
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png"
+                class="team-img"
+              />
+            </div>
+            <p class="text-blk name">Maxwell Doe</p>
+            <p class="text-blk position">Instructor</p>
+          </div>
+        </div>
+        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+          <div class="team-card">
+            <div class="img-wrapper">
+              <img
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png"
+                class="team-img"
+              />
+            </div>
+            <p class="text-blk name">Maxwell Doe</p>
+            <p class="text-blk position">Instructor</p>
+          </div>
+        </div>
+        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+          <div class="team-card">
+            <div class="img-wrapper">
+              <img
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png"
+                class="team-img"
+              />
+            </div>
+            <p class="text-blk name">Maxwell Doe</p>
+            <p class="text-blk position">Instructor</p>
+          </div>
+        </div>
+        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+          <div class="team-card">
+            <div class="img-wrapper">
+              <img
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png"
+                class="team-img"
+              />
+            </div>
+            <p class="text-blk name">Maxwell Doe</p>
+            <p class="text-blk position">Instructor</p>
+          </div>
+        </div>
+        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+          <div class="team-card">
+            <div class="img-wrapper">
+              <img
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png"
+                class="team-img"
+              />
+            </div>
+            <p class="text-blk name">Maxwell Doe</p>
+            <p class="text-blk position">Instructor</p>
+          </div>
+        </div>
+        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+          <div class="team-card">
+            <div class="img-wrapper">
+              <img
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png"
+                class="team-img"
+              />
+            </div>
+            <p class="text-blk name">Maxwell Doe</p>
+            <p class="text-blk position">Instructor</p>
+          </div>
+        </div>
+        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+          <div class="team-card">
+            <div class="img-wrapper">
+              <img
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png"
+                class="team-img"
+              />
+            </div>
+            <p class="text-blk name">Maxwell Doe</p>
+            <p class="text-blk position">Instructor</p>
+          </div>
+        </div>
+        <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+          <div class="team-card">
+            <div class="img-wrapper">
+              <img
+                src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png"
+                class="team-img"
+              />
+            </div>
+            <p class="text-blk name">Maxwell Doe</p>
+            <p class="text-blk position">Instructor</p>
           </div>
         </div>
       </div>
-
-      <div class="col-md-3 col-sm-6 box2">
-        <div class="our-team">
-          <img src={dp} alt="" />
-          <div class="team-content">
-            <h3 class="team-prof">
-              Team Member Name
-              <small>Team member designation</small>
-            </h3>
-            <ul class="social-link">
-              <li>
-                <a href="#" class="fab fa-facebook"></a>
-              </li>
-              <li>
-                <a href="#" class="fab fa-google"></a>
-              </li>
-              <li>
-                <a href="#" class="fab fa-twitter"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6 box2">
-        <div class="our-team">
-          <img src={dp} alt="" />
-          <div class="team-content">
-            <h3 class="team-prof">
-              Team Member Name
-              <small>Team member designation</small>
-            </h3>
-            <ul class="social-link">
-              <li>
-                <a href="#" class="fab fa-facebook"></a>
-              </li>
-              <li>
-                <a href="#" class="fab fa-google"></a>
-              </li>
-              <li>
-                <a href="#" class="fab fa-twitter"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6 box2">
-        <div class="our-team">
-          <img src={dp} alt="" />
-          <div class="team-content">
-            <h3 class="team-prof">
-              Team Member Name
-              <small>Team member designation</small>
-            </h3>
-            <ul class="social-link">
-              <li>
-                <a href="#" class="fab fa-facebook"></a>
-              </li>
-              <li>
-                <a href="#" class="fab fa-google"></a>
-              </li>
-              <li>
-                <a href="#" class="fab fa-twitter"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6 box2">
-        <div class="our-team">
-          <img src={dp} alt="" />
-          <div class="team-content">
-            <h3 class="team-prof">
-              Team Member Name
-              <small>Team member designation</small>
-            </h3>
-            <ul class="social-link">
-              <li>
-                <a href="#" class="fab fa-facebook"></a>
-              </li>
-              <li>
-                <a href="#" class="fab fa-google"></a>
-              </li>
-              <li>
-                <a href="#" class="fab fa-twitter"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6 box2">
-        <div class="our-team">
-          <img src={dp} alt="" />
-          <div class="team-content">
-            <h3 class="team-prof">
-              Team Member Name
-              <small>Team member designation</small>
-            </h3>
-            <ul class="social-link">
-              <li>
-                <a href="#" class="fab fa-facebook"></a>
-              </li>
-              <li>
-                <a href="#" class="fab fa-google"></a>
-              </li>
-              <li>
-                <a href="#" class="fab fa-twitter"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6 box2">
-        <div class="our-team">
-          <img src={dp} alt="" />
-          <div class="team-content">
-            <h3 class="team-prof">
-              Team Member Name
-              <small>Team member designation</small>
-            </h3>
-            <ul class="social-link">
-              <li>
-                <a href="#" class="fab fa-facebook"></a>
-              </li>
-              <li>
-                <a href="#" class="fab fa-google"></a>
-              </li>
-              <li>
-                <a href="#" class="fab fa-twitter"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6 box2">
-        <div class="our-team">
-          <img src={dp} alt="" />
-          <div class="team-content">
-            <h3 class="team-prof">
-              Team Member Name
-              <small>Team member designation</small>
-            </h3>
-            <ul class="social-link">
-              <li>
-                <a href="#" class="fab fa-facebook"></a>
-              </li>
-              <li>
-                <a href="#" class="fab fa-google"></a>
-              </li>
-              <li>
-                <a href="#" class="fab fa-twitter"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3 col-sm-6 box2">
-        <div class="our-team">
-          <img src={dp} alt="" />
-          <div class="team-content">
-            <h3 class="team-prof">
-              Team Member Name
-              <small>Team member designation</small>
-            </h3>
-            <ul class="social-link">
-              <li>
-                <a href="#" class="fab fa-facebook"></a>
-              </li>
-              <li>
-                <a href="#" class="fab fa-google"></a>
-              </li>
-              <li>
-                <a href="#" class="fab fa-twitter"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      <NavLink to="/members">
+        <button className="teamsec_btn">Meet Entire team</button>
+      </NavLink>
     </div>
-  </div>
-
-      );
+  );
 }
 
-export default DeveloperTeam;
+export default TeamSec;
+
