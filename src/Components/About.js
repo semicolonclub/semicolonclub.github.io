@@ -34,7 +34,7 @@ Srinagar.
               <div className='heading'>
             <h1>What we do?</h1>
            </div>
-              <p className='description'>Semicolon is the official coding club of NIT Srinagar. Our club is dedicated to promoting and 
+              <p className='description'>Semicolon is the official coding club of NIT Srinagar.Our club is dedicated to promoting and 
 enhancing coding skills among students. We provide a platform for students to learn, collaborate, 
 and excel in the field of computer programming. Through workshops, coding competitions, and 
 coding challenges, we aim to foster a vibrant coding culture within our college community. Our 
