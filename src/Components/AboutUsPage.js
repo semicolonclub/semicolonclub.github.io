@@ -50,7 +50,7 @@ function AboutUsPage() {
                     <center>
                       <i class="fa fa-globe"></i>
                     </center>
-                    <h3>VISSION</h3>
+                    <h3>VISION</h3>
                     <hr />
                     <p>
                       {" "}
