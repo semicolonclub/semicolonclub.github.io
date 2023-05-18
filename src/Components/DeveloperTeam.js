@@ -128,7 +128,7 @@ function TeamSec() {
           </div>
         </div>
       </div>
-      <NavLink to="/members">
+      <NavLink to="/team">
         <button className="teamsec_btn">Meet Entire team</button>
       </NavLink>
     </div>

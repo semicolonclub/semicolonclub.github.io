@@ -41,7 +41,7 @@
   }
   .position{
     font-size:0.9rem;
-    color: red;
+    color:black;
     margin-top:0px;
     margin-right:0px;
     margin-bottom:50px;
@@ -69,7 +69,7 @@
     border: none;
   }
   .teamsec_btn:hover{
-    background-color: red;
+    background-color:#90a2b0 ;
     color: black;
  }
   @media screen and (min-width:1600px){
