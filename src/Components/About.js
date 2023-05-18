@@ -1,5 +1,5 @@
 import React,{ useEffect } from 'react';
-import pic1 from "../assets/pic2.jpg";
+import pic1 from "../assets/semicolon.png";
 import '../Styles/About.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';

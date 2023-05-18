@@ -12,7 +12,7 @@ function Footer() {
   return (
     <div>
       <section className="footer">
-        <div className="line"></div>
+      <div className="line"></div>
         <div className="social-handles">
           <a href="https://www.instagram.com/semicolon_nitsgr/">
             <img className="img" alt="instaImg" src={instagram} />
@@ -27,8 +27,7 @@ function Footer() {
             <img className="img" alt="youtubeImg" src={youtube} />
           </a>
         </div>
-
-        <p className="copyright">
+  <p className="copyright">
           Copyright © 2022 Semicolon Coding Club, NIT Srinagar
         </p>
       </section>

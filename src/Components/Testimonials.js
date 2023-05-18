@@ -4,7 +4,7 @@ import { useState } from "react";
 
 function Testimonials({ item }) {
   const [click, setClick] = useState(false);
-
+  console.log(item.image);
   return (
       <div className="event__container">
         <div className="event__card">

@@ -2,6 +2,7 @@ import React,{ useEffect,useCallback,useState,useRef } from 'react';
 import '../Styles/Hero.css';
 import Typed from 'typed.js';
 import logo from "../assets/hero.jpg";
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -38,7 +39,9 @@ function Hero() {
             </div>
         </div>
         <div className="upcoming">
-            <a href="/Upcoming" className="btn">Upcoming Events</a>
+        <NavLink to="/events">
+        <button className="upcoming_btn">Upcoming events</button>
+      </NavLink>
         </div>
     </div>
 
