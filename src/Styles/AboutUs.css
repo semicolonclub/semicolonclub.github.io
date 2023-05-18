@@ -27,6 +27,8 @@ body {
   text-align: center;
   padding: 3px;
   color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
 }
 .about-item {
   /* margin-bottom: 20px;
@@ -75,6 +77,10 @@ body {
 .about-item:hover h3,
 .about-item:hover hr {
   transition: all 400ms ease-in-out;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
 }
 /* footer{
     background: #212226;
