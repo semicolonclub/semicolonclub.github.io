@@ -80,7 +80,7 @@ function AboutUsPage() {
                       organized Techsapiens 1.0, the biggest coding challenge in
                       the campus. Members of Semicolon achieved placements in
                       renowned companies such as Google, DE SHAW, Samsung R&D,
-                      Capgemini, Optum, Bluestacks, and many others.{" "}
+                      Capgemini, Optum, Bluestacks, and many others. Many more....{" "}
                     </p>
                   </div>
                 </div>
