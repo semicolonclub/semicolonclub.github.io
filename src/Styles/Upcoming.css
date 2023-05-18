@@ -33,3 +33,6 @@
   letter-spacing: 0.1rem;
   margin-bottom:2rem;
 }
+.carousel-control-prev-icon,.carousel-control-next-icon{
+  margin-block-start:65%;
+}
