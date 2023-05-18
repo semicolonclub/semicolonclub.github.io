@@ -33,14 +33,16 @@
   }
   .name{
     font-size:1rem;
-    color: white;
-    margin-top:0px;
+    color: black;
+    margin-top:2px;
     margin-right:0px;
-    margin-bottom:5px;
+    margin-bottom:2px;
     margin-left:0px;
+    font-weight:600;
+    letter-spacing: 0.03em;
   }
   .position{
-    font-size:0.9rem;
+    font-size:0.8rem;
     color:black;
     margin-top:0px;
     margin-right:0px;
@@ -65,12 +67,14 @@
     font-weight: 600;
     letter-spacing: 0.03em;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    border: none;
+    transition: all 0.5s ease-in-out;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
   }
   .teamsec_btn:hover{
     background-color:#90a2b0 ;
     color: black;
+
  }
   @media screen and (min-width:1600px){
     .teamsec_heading{

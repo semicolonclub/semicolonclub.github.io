@@ -39,7 +39,7 @@ body{
 } */
 
 /* css for upcoming event button */
-.btn {
+.upcoming_btn {
     border: 1px solid #363636;
     text-decoration: none;
     font-size: 18px;
@@ -48,9 +48,10 @@ body{
     color: #363636;
     padding: 10px 14px;
     border-radius: 5px;
+    background-color: white;
 }
-.btn:hover{
-    font-size: 18.6px;
+.upcoming_btn:hover{
+    /* font-size: 18.6px; */
     box-shadow: 1.5px 1.5px 3px 0px rgb(114, 114, 114);
 }
 
@@ -64,11 +65,11 @@ body{
         width: 75px;
         margin-top: 30px;
     }
-    .btn{
+    .upcoming_btn{
         font-size: 14px;
         margin: 2rem;
     }
-    .btn:hover{
+    .upcoming_btn:hover{
         font-size: 14.6px;
     }
     .wrap{
@@ -84,10 +85,10 @@ body{
         width: 67px;
         margin: 1.2rem;
     }
-    .btn{
+    .upcoming_btn{
         font-size: 11px;
     }
-    .btn:hover{
+    .upcoming_btn:hover{
         font-size: 11.6px;
     }
 }
@@ -101,7 +102,7 @@ body{
     .landing{
         padding-top: 5px;
     }
-    .btn{
+    .upcoming_btn{
         padding: 5px 5px;
     }
 }
