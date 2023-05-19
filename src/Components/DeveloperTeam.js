@@ -23,7 +23,7 @@ function TeamSec() {
           <div class="team-card">
             <div class="img-wrapper">
               <img
-                src={require("../assets/aman.png")}
+                src={require("../assets/amans.png")}
                 class="team-img"
               />
             </div>
