@@ -12,7 +12,7 @@ import pic10 from "../assets/aniket.png";
 import pic11 from "../assets/priyanshu.png";
 import pic12 from "../assets/sid.png";
 import pic13 from "../assets/jameel.png";
-import pic14 from "../assets/zoyak.png";
+import pic14 from "../assets/kzoya.png";
 import pic15 from "../assets/prince.png";
 import pic16 from "../assets/ashish.png";
 import pic17 from "../assets/yash.png";
