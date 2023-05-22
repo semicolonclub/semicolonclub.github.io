@@ -18,7 +18,7 @@ function Resources() {
         <a href="https://www.coursera.org/learn/ai-for-everyone" class="box box-down cyan">
           <div>
             <h2>Artificial Intelligence (AI)</h2>
-            <p>Free certificstion course</p>
+            <p>Free certification course</p>
             <img
               className="img_resources"
               src={pic1}
@@ -29,7 +29,7 @@ function Resources() {
         <a href="https://www.coursera.org/learn/machine-learning" class="box red">
           <div>
             <h2>Machine Learning</h2>
-            <p>Free certificstion course</p>
+            <p>Free certification course</p>
             <img
               className="img_resources"
               src={pic2}
@@ -41,7 +41,7 @@ function Resources() {
         <a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers" class="box box-down blue">
           <div>
             <h2>html css javascript for web Developers</h2>
-            <p>Free certificstion course</p>
+            <p>Free certification course</p>
             <img
               className="img_resources"
               src={pic3}
