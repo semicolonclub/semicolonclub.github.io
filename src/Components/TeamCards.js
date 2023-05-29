@@ -14,7 +14,7 @@ import pic12 from "../assets/sid.png";
 import pic13 from "../assets/jameel.png";
 import pic14 from "../assets/kzoya.png";
 import pic15 from "../assets/prince.png";
-import pic16 from "../assets/ashish.png";
+import pic16 from "../assets/ashish.jpg";
 import pic17 from "../assets/aman.png";
 import pic18 from "../assets/ujjwal.png";
 import pic19 from "../assets/rishav.png";
