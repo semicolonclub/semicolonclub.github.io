@@ -3,8 +3,7 @@ import '../Styles/Hero.css';
 import Typed from 'typed.js';
 import logo from "../assets/hero.jpg";
 import { NavLink } from 'react-router-dom';
-
-
+import Design from './Design';
 
 function Hero() {
     const el = useRef(null);
@@ -29,24 +28,26 @@ function Hero() {
 
   return (
     <div>
-       <div className="top">
-        <div className="logo">
+      <div id="particle_background">
+        <Design/>
+        <div className="top">
+          <div className="logo">
             <img src={logo} alt="logo" id="logo" />
-        </div>
-        <div className="wrap">
+          </div>
+          <div className="wrap">
             <div className="landing">
-                <span ref={el} className="changing_text"></span>
+              <span ref={el} className="changing_text"></span>
             </div>
+          </div>
+          <div className="upcoming">
+            <NavLink to="/events">
+              <button className="upcoming_btn">Upcoming events</button>
+            </NavLink>
+          </div>
         </div>
-        <div className="upcoming">
-        <NavLink to="/events">
-        <button className="upcoming_btn">Upcoming events</button>
-      </NavLink>
-        </div>
+      </div>
     </div>
-
-    </div>
-  )
+  );
 }
 
 export default Hero;

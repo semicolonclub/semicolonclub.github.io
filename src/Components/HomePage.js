@@ -7,20 +7,20 @@ import Hero from './Hero'
 import Navbar from './Navbar'
 import Testimonialsection from './Testimonialsection'
 import Upcoming from './Upcoming'
-
+import Design from './Design'
 function HomePage() {
   return (
     <div>
       {/* <Navbar /> */}
       <Hero />
       <About />
-      <Upcoming/>
-      <Testimonialsection/>
+      <Upcoming />
+      <Testimonialsection />
       {/* <GalleryPage /> */}
-      <DeveloperTeam/>
+      <DeveloperTeam />
       {/* <Footer /> */}
     </div>
-  )
+  );
 }
 
 export default HomePage

@@ -10,7 +10,7 @@ import AboutUsPage from "./Components/AboutUsPage";
 import Upcoming from "./Components/Upcoming";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-
+import Design from "./Components/Design";
 function App() {
   // let component = <HomePage/>;
   // switch (window.location.pathname) {
@@ -43,7 +43,7 @@ function App() {
         <Route path="/about" element={<AboutUsPage />} />
         <Route path="/events" element={<EventPage />} />
         <Route path="/resources" element={<ResourcesPage />} />
-        <Route path="/gallery"  element={<GalleryPage />} />
+        <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/team" element={<TeamPage />} />
       </Routes>
       <Footer />
