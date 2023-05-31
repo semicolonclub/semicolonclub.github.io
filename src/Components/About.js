@@ -19,8 +19,7 @@ function About() {
             <h1>Who we are?</h1>
            </div>
               <p className='description'>Semicolon is the official coding club of National Institute of Technology Srinagar, a prestigious 
-technical institute in India, founded in a Summer of 2017, By Varun Dev, Zaki Akmal, Ashish Kumar 
-and Shivang Khajuria, under Dr. Ahsan Chishti. Comprised of passionate programmers, developers, 
+technical institute in India, founded in a Summer of 2010, By The Department Of Computer Science and Engineering under Dr.Mohammad Ahsan Chishti. Comprised of passionate programmers, developers, 
 and technology enthusiasts, we come together to foster a vibrant coding culture within our campus. 
 Semicolon serves as a platform for students to enhance their coding skills, explore new technologies, 
 and collaborate on innovative projects. The whole team skilled in management, technical, content 
