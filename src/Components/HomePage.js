@@ -15,9 +15,10 @@ function HomePage() {
       <Hero />
       <About />
       <Upcoming />
-      <Testimonialsection />
+     
       {/* <GalleryPage /> */}
       <DeveloperTeam />
+      <Testimonialsection />
       {/* <Footer /> */}
     </div>
   );
