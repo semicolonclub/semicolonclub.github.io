@@ -1,6 +1,6 @@
 .carousel-inner {
     margin: 0 auto;
-    padding:3rem 1rem;
+    padding:0rem 1rem 1rem 3rem;
     flex-wrap: wrap;
     align-items: auto;
     justify-content: none;
