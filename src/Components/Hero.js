@@ -1,7 +1,7 @@
 import React,{ useEffect,useCallback,useState,useRef } from 'react';
 import '../Styles/Hero.css';
 import Typed from 'typed.js';
-import logo from "../assets/hero.jpg";
+import logo from "../assets/semicolonlogo.png";
 import { NavLink } from 'react-router-dom';
 import Design from './Design';
 
