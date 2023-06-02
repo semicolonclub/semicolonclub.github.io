@@ -15,13 +15,13 @@ function Testimonialsection() {
       {
         name:'SACHIN KUMAR',
         image:pic3,
-        intro:'Associate Lead(Technical Team)',
+        intro:'Associate Lead (Technical Team) (2021-2022)',
         description:'My branch was MME but i had keen interest in computer programming.Joining semicolon really helped me in getting those crucial support from the senior members of the club. As a newbie getting started was very tough, so they helped a lot in being consistent. Later on as an associate technical lead, got the opportunity to lead as well. It was time to deliver the same and i tried my best. Usually students were face problems in being consistent while coding and project related issues.'
       },
       {
         name:'ZOYA ARIEF',
         image:pic2,
-        intro:'Creative Team Lead',
+        intro:'Creative Team Lead (2021-2022)',
         description:'I had the opportunity to serve as a team leader in Semicolon. I found the experience both challenging and rewarding as we had to balance our goals as well as the needs of our team.This experience had given me the opportunity to develop my leadership skills and I am grateful for this amazing experience.'
       },
     ]

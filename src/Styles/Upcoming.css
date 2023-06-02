@@ -1,11 +1,11 @@
 .carousel-inner {
     margin: 0 auto;
-    padding:0rem 1rem 1rem 3rem;
+    padding:0rem 0 0 0rem;
     flex-wrap: wrap;
     align-items: auto;
     justify-content: none;
     gap: 10rem;
-    width: 90vw;
+    width: 100vw;
   }
   p{
     font-family: 'Signika Negative', sans-serif;
@@ -23,7 +23,7 @@
     letter-spacing: 0.1rem;
   }
 .upcoming_heading{
-  padding: 3rem 0 2rem 0;
+  padding: 3rem 0 0.5rem 0;
   text-align: center;
   color:#363636 ;
   font-size: 1.3rem;
