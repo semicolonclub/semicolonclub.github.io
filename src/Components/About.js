@@ -1,5 +1,6 @@
 import React,{ useEffect } from 'react';
 import pic1 from "../assets/semicolon.png";
+import pic2 from "../assets/gallery_img/fig3.jpeg";
 import '../Styles/About.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -19,12 +20,10 @@ function About() {
             <h1>Who we are?</h1>
            </div>
               <p className='description'>Semicolon is the official coding club of National Institute of Technology Srinagar, a prestigious 
-technical institute in India, founded in a Summer of 2010, By The Department Of Computer Science and Engineering under Dr.Mohammad Ahsan Chishti. Comprised of passionate programmers, developers, 
+technical institute in India, founded in a Summer of 2010, by the Department of Computer Science and Engineering under Dr.Mohammad Ahsan Chishti. Comprised of passionate programmers, developers, 
 and technology enthusiasts, we come together to foster a vibrant coding culture within our campus. 
 Semicolon serves as a platform for students to enhance their coding skills, explore new technologies, 
-and collaborate on innovative projects. The whole team skilled in management, technical, content 
-and graphics designing, works together as a single unit for the betterment of students society at NIT 
-Srinagar.
+and collaborate on innovative projects.
 </p>
               </div>
            </div>
@@ -33,18 +32,14 @@ Srinagar.
               <div className='heading'>
             <h1>What we do?</h1>
            </div>
-              <p className='description'>Semicolon is the official coding club of NIT Srinagar.Our club is dedicated to promoting and 
-enhancing coding skills among students. We provide a platform for students to learn, collaborate, 
-and excel in the field of computer programming. Through workshops, coding competitions, and 
+              <p className='description'>Semicolon provides a platform for students to learn, collaborate, 
+and excel in the field of computer programming, through workshops, coding competitions, and 
 coding challenges, we aim to foster a vibrant coding culture within our college community. Our 
 club also organizes Non-Technical events, guest lectures and coding boot camps to facilitate 
-knowledge sharing and skill development. Whether you are a beginner or an experienced coder, 
-Semicolon offers a supportive and inclusive environment to explore new technologies, build 
-innovative projects, and prepare for coding competitions. Join us to expand your coding prowess 
-and be a part of the exciting world of programming. It also hosts one of the biggest Technical 
+knowledge sharing and skill development. It also hosts one of the biggest Technical 
 fest in whole J&K valley named as “EXORDIUM”</p>
               </div>
-              <img className='what_img' src={pic1} alt="" />
+              <img className='what_img' src={pic2} alt="" />
            </div>
        </div>
 

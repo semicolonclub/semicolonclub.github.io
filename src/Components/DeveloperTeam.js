@@ -63,7 +63,7 @@ function TeamSec() {
                 class="team-img"
               />
             </div>
-            <p class="text-blk name">Piyush Kumar</p>
+            <p class="text-blk name">Piyush Thakur</p>
             <p class="text-blk position">Associate Lead(Operations Team)</p>
           </div>
         </div>

@@ -20,13 +20,14 @@ function Testimonials({ item }) {
            </div>
           </div>
           <div className="event__card__detail">
-            <i
+            {/* <i
               className={click ? "fa fa-angle-up" : "fa fa-angle-down"}
               onClick={() => setClick(!click)}
             ></i>
             <p className={click? "track-list two expand":"track-list two"}>
               {item.description}
-            </p>
+            </p> */}
+            <p className="track-list two expand">{item.description}</p>
           </div>
         </div>
       </div>
