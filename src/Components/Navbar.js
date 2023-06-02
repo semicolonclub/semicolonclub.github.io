@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/Navbar.css";
-import semicolon_logo from "../assets/semicolon_logo.png";
+import semicolon_logo from "../assets/semicolonlogo.png";
 import NIT from "../assets/NIT.jpg";
 import { NavLink, Link } from "react-router-dom";
 
