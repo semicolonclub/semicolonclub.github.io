@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import "../Styles/AboutUs.css";
+import { motion } from "framer-motion";
 
 function AboutUsPage() {
   return (
@@ -25,14 +26,56 @@ function AboutUsPage() {
           <div class="content-box-lg">
             <div class="container">
               <div class="row">
-                <div class="col-md-4">
+                <motion.div
+                 class="col-md-4"
+                 initial={{ y: 100, opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{
+                        delay: 0.1,
+                        y: { type: "spring", stiffness: 60 },
+                        opacity: { duration: 1 },
+                        ease: "easeIn",
+                        duration: 1,
+                      }}>
                   <div class="about-item text-left">
-                    <center>
+                    <motion.center
+                      initial={{ y: 100, opacity: 0.8 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{
+                        delay: 0.2,
+                        y: { type: "spring", stiffness: 60 },
+                        opacity: { duration: 1 },
+                        ease: "easeIn",
+                        duration: 1,
+                      }}
+                    >
                       <i class="fa fa-book"></i>
-                    </center>
-                    <h3>MISSION</h3>
+                    </motion.center>
+                    <motion.h3
+                      initial={{ y: 100, opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{
+                        delay: 0.3,
+                        y: { type: "spring", stiffness: 60 },
+                        opacity: { duration: 1 },
+                        ease: "easeIn",
+                        duration: 1,
+                      }}
+                    >
+                      MISSION
+                    </motion.h3>
                     <hr />
-                    <p>
+                    <motion.p
+                      initial={{ y: 100, opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{
+                        delay: 0.4,
+                        y: { type: "spring", stiffness: 60 },
+                        opacity: { duration: 1 },
+                        ease: "easeIn",
+                        duration: 1,
+                      }}
+                    >
                       {" "}
                       Our mission is to provide a dynamic platform for students
                       to enhance their coding skills, foster a culture of
@@ -42,17 +85,58 @@ function AboutUsPage() {
                       offering valuable resources, and creating an inclusive
                       community where every member can thrive and realize their
                       full potential as coders and technologists.{" "}
-                    </p>
+                    </motion.p>
                   </div>
-                </div>
-                <div class="col-md-4">
+                </motion.div>
+                <motion.div class="col-md-4"
+                initial={{ y: 100, opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{
+                        delay: 0.3,
+                        y: { type: "spring", stiffness: 60 },
+                        opacity: { duration: 1 },
+                        ease: "easeIn",
+                        duration: 1,
+                      }}>
                   <div class="about-item text-left">
-                    <center>
+                    <motion.center
+                      initial={{ y: 100, opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{
+                        delay: 0.4,
+                        y: { type: "spring", stiffness: 60 },
+                        opacity: { duration: 1 },
+                        ease: "easeIn",
+                        duration: 1,
+                      }}
+                    >
                       <i class="fa fa-globe"></i>
-                    </center>
-                    <h3>VISION</h3>
+                    </motion.center>
+                    <motion.h3
+                      initial={{ y: 100, opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{
+                        delay: 0.5,
+                        y: { type: "spring", stiffness: 60 },
+                        opacity: { duration: 1 },
+                        ease: "easeIn",
+                        duration: 1,
+                      }}
+                    >
+                      VISION
+                    </motion.h3>
                     <hr />
-                    <p>
+                    <motion.p
+                      initial={{ y: 100, opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{
+                        delay: 0.6,
+                        y: { type: "spring", stiffness: 60 },
+                        opacity: { duration: 1 },
+                        ease: "easeIn",
+                        duration: 1,
+                      }}
+                    >
                       {" "}
                       Our vision is to establish Semicolon as a hub of coding
                       excellence, where students can explore, learn, and excel
@@ -62,28 +146,70 @@ function AboutUsPage() {
                       initiatives, we aim to empower students with the skills
                       and knowledge necessary to tackle real-world challenges
                       and make a positive impact in the technology industry.{" "}
-                    </p>
+                    </motion.p>
                   </div>
-                </div>
-                <div class="col-md-4">
+                </motion.div>
+                <motion.div class="col-md-4"
+                initial={{ y: 100, opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{
+                        delay: 0.4,
+                        y: { type: "spring", stiffness: 60 },
+                        opacity: { duration: 1 },
+                        ease: "easeIn",
+                        duration: 1,
+                      }}>
                   <div class="about-item text-left">
-                    <center>
+                    <motion.center
+                      initial={{ y: 100, opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{
+                        delay: 0.5,
+                        y: { type: "spring", stiffness: 60 },
+                        opacity: { duration: 1 },
+                        ease: "easeIn",
+                        duration: 1,
+                      }}
+                    >
                       <i class="fa fa-pencil"></i>
-                    </center>
-                    <h3>ACHIEVEMENTS</h3>
+                    </motion.center>
+                    <motion.h3
+                      initial={{ y: 100, opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{
+                        delay: 0.6,
+                        y: { type: "spring", stiffness: 60 },
+                        opacity: { duration: 1 },
+                        ease: "easeIn",
+                        duration: 1,
+                      }}
+                    >
+                      ACHIEVEMENTS
+                    </motion.h3>
                     <hr />
-                    <p>
+                    <motion.p
+                      initial={{ y: 100, opacity: 0 }}
+                      animate={{ y: 0, opacity: 1 }}
+                      transition={{
+                        delay: 0.7,
+                        y: { type: "spring", stiffness: 60 },
+                        opacity: { duration: 1 },
+                        ease: "easeIn",
+                        duration: 1,
+                      }}
+                    >
                       {" "}
-                      Some notable achievements: Semicolon organized the mega event
-                      Exordium, which attracted participation from students all
-                      over the Kashmir Valley. The club also successfully
-                      organized Techsapiens 1.0, the biggest coding challenge in
-                      the campus. Members of Semicolon achieved placements in
-                      renowned companies such as Google, DE SHAW, Samsung R&D,
-                      Capgemini, Optum, Bluestacks, and many others. Many more....{" "}
-                    </p>
+                      Some notable achievements: Semicolon organized the mega
+                      event Exordium, which attracted participation from
+                      students all over the Kashmir Valley. The club also
+                      successfully organized Techsapiens 1.0, the biggest coding
+                      challenge in the campus. Members of Semicolon achieved
+                      placements in renowned companies such as Google, DE SHAW,
+                      Samsung R&D, Capgemini, Optum, Bluestacks, and many
+                      others. Many more....{" "}
+                    </motion.p>
                   </div>
-                </div>
+                </motion.div>
               </div>
             </div>
           </div>

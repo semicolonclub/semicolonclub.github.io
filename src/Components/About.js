@@ -48,7 +48,7 @@ function About() {
                 }}
                 className="font-extrabold text-2xl mdl:text-3xl"
               >
-                Who are we?
+                Who we are?
               </motion.h1>
             </div>
             <motion.p
