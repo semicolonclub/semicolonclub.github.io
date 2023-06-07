@@ -41,4 +41,4 @@ function Testimonialsection() {
   )
 }
 
-export default Testimonialsection
+export default Testimonialsection;
