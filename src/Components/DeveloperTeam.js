@@ -16,7 +16,7 @@ function TeamSec() {
               <img src={require("../assets/shiva.png")} class="team-img" />
             </div>
             <p class="text-blk name">Shiva Singh</p>
-            <p class="text-blk position">Managing Director</p>
+            <p class="text-blk position">President</p>
           </div>
         </div>
         <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">

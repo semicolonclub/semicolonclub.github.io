@@ -65,12 +65,11 @@ function About() {
               Semicolon is the official coding club of National Institute of
               Technology Srinagar, a prestigious technical institute in India,
               founded in a Summer of 2010, by the Department of Computer Science
-              and Engineering under Dr.Mohammad Ahsan Chishti. Comprised of
-              passionate programmers, developers, and technology enthusiasts, we
-              come together to foster a vibrant coding culture within our
-              campus. Semicolon serves as a platform for students to enhance
-              their coding skills, explore new technologies, and collaborate on
-              innovative projects.
+              and Engineering. Comprised of passionate programmers, developers,
+              and technology enthusiasts, we come together to foster a vibrant
+              coding culture within our campus. Semicolon serves as a platform
+              for students to enhance their coding skills, explore new
+              technologies, and collaborate on innovative projects.
             </motion.p>
           </div>
         </div>
