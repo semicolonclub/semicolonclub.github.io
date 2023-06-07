@@ -8,6 +8,8 @@ import Navbar from './Navbar'
 import Testimonialsection from './Testimonialsection'
 import Upcoming from './Upcoming'
 import Design from './Design'
+import Faccord from './Faccord';
+
 function HomePage() {
   return (
     <div>
@@ -17,6 +19,7 @@ function HomePage() {
       <Upcoming />
      
       {/* <GalleryPage /> */}
+      <Faccord />
       <DeveloperTeam />
       <Testimonialsection />
       {/* <Footer /> */}
