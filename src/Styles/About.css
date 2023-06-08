@@ -1,4 +1,4 @@
-/* .container{
+ .container{
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -6,6 +6,7 @@
     overflow: auto;
     margin-top: auto;
 }
+/*
 .who{
     background-color: white;
     color: black;
@@ -88,9 +89,9 @@
 }
 
 @media screen and (max-width: 768px){
-    /* .flex{
+    .flex{
         flex-direction: column;
-    } */
+    }
     .flex1{
         flex-direction: column-reverse;
     }
